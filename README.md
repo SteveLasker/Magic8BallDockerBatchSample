@@ -6,6 +6,8 @@ In this really simple sample, I pass a string (a question for the magic 8 ball) 
 Using `ENTRYPOINT` as a JSON array, we can tell docker what to run by default, and leave the parameters to the input passed to the container. 
 
 Run the following command:
+
 `docker run stevelasker/magic8ballbatchsample "Are you a square container?"`
+
   The answer to your question: 'Are you a square container?' is Without a doubt
 
