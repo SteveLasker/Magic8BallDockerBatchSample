@@ -2,7 +2,7 @@ version: '2'
 
 services:
   magic8ball:
-    image: user/magic8ball${TAG}
+    image: stevelasker/magic8ballbatchsample${TAG}
     build:
       context: .
       dockerfile: Dockerfile
