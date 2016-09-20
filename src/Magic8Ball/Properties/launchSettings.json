@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Magic8Ball": {
+      "commandName": "Project",
+      "commandLineArgs": "Hello"
+    },
+    "Docker": {}
+  }
+}

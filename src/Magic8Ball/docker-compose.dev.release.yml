@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  magic8ball:
+    volumes:
+      - ~/clrdbg:/clrdbg:ro
+    entrypoint: tail -f /dev/null

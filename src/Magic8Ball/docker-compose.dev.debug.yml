@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  magic8ball:
+    build:
+      args:
+        source: obj/Docker/empty/
+    volumes:
+      - .:/app
+      - ~/.nuget/packages:/root/.nuget/packages:ro
+      - ~/clrdbg:/clrdbg:ro
+    entrypoint: tail -f /dev/null
