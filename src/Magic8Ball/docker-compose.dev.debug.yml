@@ -2,6 +2,8 @@ version: '2'
 
 services:
   magic8ball:
+    labels:
+      - "com.microsoft.visualstudio.targetoperatingsystem=linux"
     build:
       args:
         source: obj/Docker/empty/

@@ -6,6 +6,3 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    labels:
-      - "com.microsoft.visualstudio.targetoperatingsystem=linux"
-      - "com.microsoft.visualstudio.projectname=Magic8Ball"

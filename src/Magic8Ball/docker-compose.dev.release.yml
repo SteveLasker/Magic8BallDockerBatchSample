@@ -2,6 +2,8 @@ version: '2'
 
 services:
   magic8ball:
+    labels:
+      - "com.microsoft.visualstudio.targetoperatingsystem=linux"
     volumes:
       - ~/clrdbg:/clrdbg:ro
     entrypoint: tail -f /dev/null
