@@ -11,3 +11,10 @@ Run the following command:
 
   The answer to your question: 'Are you a square container?' is Without a doubt
 
+##Building##
+To build this project, from a commandline in the same folder as your source and dockerfiles
+```
+dotnet restore
+dotnet publish -c release -o ./publish
+docker-compose -f publish\docker-compose.yml -p "magic8ball" build
+```
